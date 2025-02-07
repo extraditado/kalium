@@ -1,0 +1,12 @@
+{
+	"name": "@kalium/utils",
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
