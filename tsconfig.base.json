@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "NodeNext",
-    "moduleResolution": "node16",
+    "target": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true

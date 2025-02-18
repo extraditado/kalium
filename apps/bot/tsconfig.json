@@ -2,7 +2,11 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "#lib/*": ["src/lib/*"]
+    }
   },
   "include": ["src"]
 }

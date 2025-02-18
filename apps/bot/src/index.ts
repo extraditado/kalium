@@ -1,5 +1,4 @@
-import { Client } from "seyfert";
+import { Kalium } from "#lib/structures/Bot";
 
-const client = new Client();
-
-await client.start();
+const client = new Kalium();
+client.start();
